@@ -1,2 +1,2 @@
 # Re-Bag-It-Up
-# The purpose of this application is to simplify the process of searching for second-hand handbags. It utilizes Lykdat's reverse product search API to search for handbags across the web based on a photo that the user submits. The response from the API call is then filtered to return the exact or similar products on resale platforms. 
+The purpose of this application is to simplify the process of searching for second-hand handbags. It utilizes Lykdat's reverse product search API to search for handbags across the web based on a photo that the user submits. The response from the API call is then filtered to return the exact or similar products on resale platforms. 
