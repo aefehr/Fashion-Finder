@@ -24,6 +24,7 @@ function UploadButton() {
 
   return (
     <div>
+      <h2>Upload an image of a bag here</h2>
       <input type="file" accept="image/*" onChange={handleUpload} />
       {similarProducts.map(product => (
         <div key={product.id}>

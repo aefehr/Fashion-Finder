@@ -1,5 +1,4 @@
 // server/index.js
-
 const express = require("express");
 const axios = require('axios');
 const multer = require('multer');
@@ -47,7 +46,6 @@ app.post('/upload', upload.single('image'), async (req, res) => {
       res.status(500).send('An error occurred');
     }
 });
-
 
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
